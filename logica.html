@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        /*
+        var ano = 2023;
+        //var pularLinha = "<br><br>"
+
+        function pulaLinha(){
+            
+            document.write("<br>")
+            document.write("<br>")
+        }
+
+        function mostra(frase){
+            document.write(frase)
+            pulaLinha()
+        }
+        */
+
+        /*
+        document.write("Flávio tem " + (ano - 1979) + " anos")
+        //document.write(pularLinha)
+        pulaLinha()
+        document.write("Ana tem " + (ano - 1980)+ " anos")
+        pulaLinha()
+        document.write("André tem " + (ano - 1979)+ " anos")
+        */
+
+        /*
+        mostra("Flávio tem " + (ano - 1979) + " anos")
+        mostra("Andreza tem " + (ano - 1978)+ " anos")
+        mostra("André tem " + (ano - 1979)+ " anos")
+        */
+
+        /*
+        function pulaLinha(){
+            document.write("<br>");
+            document.write("<hr>");
+            document.write("<br>");
+            document.write("<hr>")
+        }
+
+        function mostra(frase){
+            document.write("<big>"+frase+"</big>")
+            pulaLinha()
+        }
+
+        var ano = 2019;
+        mostra("Eu nasci em: "+ (ano - 25));
+        mostra("Adriano nasceu em: "+ (ano - 26));
+        mostra("Paulo nasceu em: "+ (ano - 32))
+        */
+
+            
+        /*
+            function pulaLinha(){
+                document.write("<br>")
+                document.write("<br>")
+            }
+
+            function mostra(frase){
+                document.write(frase)
+                pulaLinha()
+            }
+
+            function calculaImc(altura, peso){
+                var imc = peso / (altura * altura);
+                mostra("O IMC calculado é: " + imc)
+
+            }
+
+            calculaImc(1.71, 73)
+            calculaImc(1.80, 100)
+        */
+        
+        /*
+            function pulaLinha(){
+                document.write("<br>")
+                document.write("<br>")
+            }
+
+            function mostra(frase){
+                document.write(frase)
+                pulaLinha()
+            }
+
+            function calculaImc(altura, peso){
+                var imc = peso / (altura * altura);
+                
+                return imc;
+            }
+
+            var imcAndre = calculaImc(1.80, 100 )
+            var imcAmigo = calculaImc(1.81, 91)
+
+            mostra(Math.round(imcAndre))
+            mostra(Math.round(imcAmigo))
+        */
+        
+        /*
+        function pulaLinha(){
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase){
+            document.write(frase)
+            pulaLinha()
+        }
+
+        function calculaImc(altura, peso){
+            return peso / (altura * altura);
+        }
+
+        var imcAndre = calculaImc(1.80, 101)
+        var imcAmigo = calculaImc(1.91, 95)
+        var totalImc = imcAndre+imcAmigo
+        document.write("O valor dos IMCs calculados é "+ totalImc)
+
+        */
+
+        /*
+        function pulaLinha(){
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase){
+            document.write(frase)
+            pulaLinha()
+        }
+
+        function calculaImc(altura, peso){
+            return peso / (altura * altura);
+        }
+
+        var nome = prompt("Informe seu nome!")
+        var alturaInformada = prompt(nome + ", informe sua altura!")
+        var pesoInformado = prompt(nome + ", informe seu peso!")
+
+        var imc = calculaImc(alturaInformada, pesoInformado)
+
+        document.write(nome + ", o seu IMC é: " + imc)
+
+        */
+
+        
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(texto) {
+
+        return "(" + texto + ")";
+    }
+
+    function b(texto) {
+
+        return "@" + texto + "@";
+    }
+
+    function c(nome, sobrenome) {
+
+        return b(nome + " " + a(sobrenome));
+
+    }
+
+    var resultado = c("Flávio", "Almeida");
+
+    mostra(resultado);
+
+
+
+
+    </script>
+    
+</body>
+</html>
